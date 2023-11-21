@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Office(props) {
-  const { nodes, materials } = useGLTF("models/OFFICE.glb");
+  const { nodes, materials } = useGLTF("./public/models/OFFICE.glb");
   return (
     <group {...props} dispose={null}>
       <group position={[1.861, 1.093, 0.864]}>
